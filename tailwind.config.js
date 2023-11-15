@@ -4,6 +4,10 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx,}',
   ],
   theme: {
+    fontFamily: {
+      primary: 'poppins',
+      secondary: 'sora',
+    },
     container: {
       padding: {
         DEFAULT: '15px',
@@ -22,17 +26,13 @@ module.exports = {
         accent: '#F13024',
       },
       backgroundImage: {
-        explosion: 'url("/bg-explosion.png")',
-        circles: 'url("/bg-circles.png")',
-        circleStar: 'url("/circle-star.svg")',
-        site: 'url("/site-bg.svg")',
+        explosion: 'url("/src/img/bg-explosion.png")',
+        circles: 'url("/src/img/bg-circles.png")',
+        circleStar: 'url("/src/img/circle-star.svg")',
+        site: 'url("/src/img/site-bg.svg")',
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',
-      },
-      fontFamily: {
-        poppins: [`var(--font-poppins)`, 'sans-serif'],
-        sora: [`var(--font-sora)`, 'sans-serif'],
       },
     },
   },

@@ -26,9 +26,26 @@ export const fadeIn = (direction, delay) => {
 };
 
 
+const transitionVariant = {
+  initial: {
+    x: '100%',
+    width: '100%'
+  },
+  animate: {
+    x: '0%',
+    width: '0%'
+  },
+  exit: {
+    x: ['0%', '100%'],
+    width: ['0%', '100%']
+  }
+}
+
+
 
 const variants = {
-  fadeIn
+  fadeIn,
+  transitionVariant
 }
 
 

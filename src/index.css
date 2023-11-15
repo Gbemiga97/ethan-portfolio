@@ -20,7 +20,7 @@
 
 @layer base {
   body {
-    @apply bg-secondary overflow-hidden leading-relaxed;
+    @apply bg-secondary overflow-hidden font-primary leading-relaxed;
   }
   .page {
     @apply w-full h-screen overflow-hidden;
@@ -48,4 +48,18 @@
   .textarea {
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
+}
+
+
+
+
+a{
+  position: relative;
+  display: flex;
+  align-items: center;  
+  transition: all 300ms;
+  
+}
+a:hover{
+  color: #F13024;
 }

@@ -13,10 +13,11 @@ import TestimonialSlider from "./TestimonialSlider";
 import TopLeftImg from "./TopLeftImg";
 import Transition from "./Transition";
 import WorkSlider from "./WorkSlider";
-
+import AnimRoutes from "./AnimRoutes";
 
 
 export {
+    AnimRoutes,
     Avatar,
     Bulb,
     CardLeft,
