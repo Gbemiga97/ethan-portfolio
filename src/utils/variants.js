@@ -24,3 +24,12 @@ export const fadeIn = (direction, delay) => {
     },
   };
 };
+
+
+
+const variants = {
+  fadeIn
+}
+
+
+export default variants
