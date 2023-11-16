@@ -2,6 +2,7 @@ import Avatar from "./Avatar";
 import Bulb from "./Bulb";
 import CardLeft from "./CardLeft";
 import CardRight from "./CardRight";
+import Circles from './Circles'
 import Header from "./Header";
 import Layout from "./Layout";
 import Nav from "./Nav";
@@ -22,6 +23,7 @@ export {
     Bulb,
     CardLeft,
     CardRight,
+    Circles,
     Header,
     Layout,
     Nav,
