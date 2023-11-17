@@ -32,6 +32,7 @@ import {
     RxReader,
     RxRocket
   } from 'react-icons/rx'
+import images from './images';
 
 
 
@@ -58,21 +59,21 @@ import {
   // testimonial data
 const testimonialData = [
   {
-    image: '/t-avt-1.png',
+    image: images.T_Avatar1,
     name: 'Anne Smith',
     position: 'Customer',
     message:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
   },
   {
-    image: '/t-avt-2.png',
+    image: images.T_Avatar2,
     name: 'Jane Doe',
     position: 'Customer',
     message:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
   },
   {
-    image: '/t-avt-3.png',
+    image: images.T_Avatar3,
     name: 'Jhon Doe',
     position: 'Customer',
     message:
@@ -88,19 +89,19 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: images.Thumb1,
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: images.Thumb2,
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: images.Thumb3,
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: images.Thumb4,
         },
       ],
     },
@@ -108,19 +109,19 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: images.Thumb4,
         },
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: images.Thumb3,
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: images.Thumb2,
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: images.Thumb1,
         },
       ],
     },
