@@ -39,7 +39,7 @@ import images from './images';
 
   // nav data
   export const navData = [
-    { name: 'home', path: '/', icon: <HiHome /> },
+    { name: 'home', path: '/ethan-portfolio', icon: <HiHome /> },
     { name: 'about', path: '/about', icon: <HiUser /> },
     { name: 'services', path: '/services', icon: <HiRectangleGroup /> },
     { name: 'work', path: '/work', icon: <HiViewColumns /> },
