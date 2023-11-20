@@ -11,7 +11,7 @@ const AnimRoutes = () => {
         <motion.div key={location.pathname} className="h-full">
         <Transition />
    <Routes key={location.pathname} location={location} >
-    <Route path="/ethan-portfolio" element={<Home />} />
+    <Route  path="/" element={<Home />} />
     <Route path="/about" element={<About />} />
     <Route path="/services" element={<Services />} />
     <Route path="/work" element={<Work />} />
