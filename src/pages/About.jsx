@@ -19,7 +19,7 @@ const About = () => {
       initial="hidden"
       animate="show"
       exit="hidden"
-      className="hidden xl:flex absolute bottom-0 -left-[370px]">
+      className="hidden xl:flex z-0 absolute bottom-0 -left-[370px]">
         <Avatar />
       </motion.div>
       <div className="container mx-auto h-full flex flex-col  items-center xl:flex-row gap-x-6">
@@ -30,7 +30,7 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="h2">
+          className="h2 z-30">
             Captivating 
             <span className="text-accent"> stories </span>
             birth magnificent designs.
@@ -40,7 +40,7 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
+          className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 z-30 px-2 xl:px-0">
             10 years ago, I began freelancing as a developer,
             Since then, I've done remote work for agencies, 
             consulted for startup, and collaborated on digital 
